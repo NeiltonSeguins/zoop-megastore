@@ -1,0 +1,43 @@
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.radio__label {
+  display: block;
+  cursor: pointer;
+  line-height: 2.5;
+  font-size: 1.125rem;
+}
+
+[type="radio"] + span {
+  display: block;
+  color: var(--Grafite, #312e2e);
+}
+
+[type="radio"] + span:before {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: -0.45em;
+  border-radius: 1em;
+  border: 0.5rem solid #fff;
+  box-shadow: 0 0 0 0.15em var(--azul-primario);
+  margin-right: 1rem;
+  transition: 0.5s ease all;
+}
+
+[type="radio"]:checked + span:before {
+  background: var(--azul-primario);
+}
+
+[type="radio"]:focus {
+  box-shadow: 0 0 0 0.15em var(--azul-hover);
+}

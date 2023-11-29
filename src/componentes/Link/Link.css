@@ -1,0 +1,15 @@
+.link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--magenta-primario);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: var(--magenta-hover);
+}

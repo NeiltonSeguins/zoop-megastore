@@ -1,0 +1,32 @@
+.campo-busca {
+  display: flex;
+  width: 600px;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--cinza-primario);
+  border-radius: 0.5rem;
+}
+
+.campo-texto {
+  outline: none;
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-family: var(--fonte-principal);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.campo-busca:focus {
+  outline: none;
+  border: 2px solid;
+  border-color: var(--azul-primario);
+}
+
+.botao-busca {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

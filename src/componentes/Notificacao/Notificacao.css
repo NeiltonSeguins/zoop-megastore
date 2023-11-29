@@ -1,0 +1,28 @@
+.notificacao {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.notificacao p {
+  margin: 0;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.icone__erro {
+  color: var(--azul-primario);
+}
+
+.sucesso {
+  background-color: var(--verde-primario);
+  color: var(--azul-primario);
+}
+
+.erro {
+  background-color: var(--magenta-escuro);
+  color: var(--cinza-primario);
+}

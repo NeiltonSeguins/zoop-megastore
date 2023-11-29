@@ -1,0 +1,34 @@
+.botao {
+  padding: 1rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-family: var(--fonte-principal);
+  color: var(--cinza-primario);
+  font-size: 1.375rem;
+  font-weight: 700;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.botao-icone {
+  margin-right: 8px;
+}
+
+.primario {
+  background-color: var(--magenta-primario);
+}
+
+.primario:hover {
+  background-color: var(--magenta-hover);
+}
+
+.secundario {
+  background-color: var(--azul-primario);
+}
+
+.secundario:hover {
+  background-color: var(--azul-hover);
+}
