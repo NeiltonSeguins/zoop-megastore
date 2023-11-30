@@ -1,0 +1,32 @@
+.mais__procurados {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+.mais_procurados--conteudo {
+  padding: 80px 240px 160px 240px;
+}
+
+.mais__procurados--titulo {
+  color: var(--azul-primario);
+  font-size: 2.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.produtos__mais__procurados {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: stretch;
+  row-gap: 1.5rem;
+  padding-top: 40px;
+}
+
+.link__ver__mais {
+  text-align: right;
+  padding-top: 40px;
+}
