@@ -1,14 +1,10 @@
 import "./Categoria.css";
 
-const Categoria = () => {
+const Categoria = ({ id, titulo, src, altImg }) => {
   return (
-    <div className="categoria__card" tabIndex="0">
-      <img
-        className="categoria__imagem"
-        src="https://placehold.co/500x500/000000/FFF"
-        alt="Imagem de placeholder"
-      />
-      <p className="categoria__descricao">Eletronicos</p>
+    <div key={id} className="categoria__card" tabIndex="0">
+      <img className="categoria__imagem" src={src} alt={altImg} />
+      <p className="categoria__descricao">{titulo}</p>
     </div>
   );
 };
