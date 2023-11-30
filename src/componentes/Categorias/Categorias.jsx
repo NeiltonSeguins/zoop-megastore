@@ -6,9 +6,9 @@ const Categorias = () => {
   return (
     <section className="categorias">
       <h2 className="categorias__titulo">Categorias</h2>
-      <p className="categorias__subtitulo">
+      <h3 className="categorias__subtitulo">
         Escolha a categoria de produto que você deseja:
-      </p>
+      </h3>
       <div className="categoria">
         {categorias.map((categoria) => (
           <Categoria {...categoria} />

@@ -5,6 +5,7 @@ import Categorias from "./componentes/Categorias/Categorias";
 import Produtos from "./componentes/Produtos/Produtos";
 import Inscricao from "./componentes/Inscricao/Inscricao";
 import Faq from "./componentes/Faq/Faq";
+import Rodape from "./componentes/Rodape/Rodape";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Inscricao />
         <Faq />
       </main>
+      <Rodape />
     </>
   );
 }

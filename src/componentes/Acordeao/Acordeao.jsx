@@ -16,7 +16,7 @@ const SecaoAcordeao = ({
   return (
     <details>
       <summary className="acordeao__titulo" onClick={toggleSecao}>
-        <h4>{secao.titulo}</h4>
+        <h5>{secao.titulo}</h5>
         <span>{ehSecaoAtiva ? <IconeSetaCima /> : <IconeSetaBaixo />}</span>
       </summary>
       {ehSecaoAtiva && (

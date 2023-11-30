@@ -9,10 +9,10 @@ const Inscricao = () => {
         <h2 className="inscricao__titulo">
           Inscreva-se para ganhar descontos!
         </h2>
-        <p className="inscricao__subtitulo">
+        <h3 className="inscricao__subtitulo">
           Cadastre seu email em nossa newsletter e saiba dos descontos, cupons e
           novidades em primeira mão!
-        </p>
+        </h3>
         <form className="inscricao__formulario">
           <CampoTexto placeholder="Digite seu melhor endereço de email" />
           <Botao>Inscrever</Botao>
