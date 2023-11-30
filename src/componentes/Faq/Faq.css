@@ -1,0 +1,25 @@
+.duvidas {
+  display: flex;
+  padding: 120px 240px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
+
+.duvidas__titulo {
+  color: var(--azul-primario);
+  font-size: 2.3125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.duvidas__subtitulo {
+  color: var(--cinza-escuro);
+  font-size: 1.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
