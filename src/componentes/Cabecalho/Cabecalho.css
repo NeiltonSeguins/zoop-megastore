@@ -1,0 +1,25 @@
+.cabecalho {
+  display: flex;
+  height: 107px;
+  padding: 0px 240px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.cabecalho__link {
+  color: var(--azul-primario);
+  font-size: 1.125rem;
+}
+
+.icones__cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.icones__botoes {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

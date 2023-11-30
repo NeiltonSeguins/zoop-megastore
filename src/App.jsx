@@ -1,5 +1,5 @@
 import "./App.css";
-import Acordeao from "./componentes/Acordeao/Acordeao";
+import Cabecalho from "./componentes/Cabecalho/Cabecalho";
 
 const dadosAcordeao = [
   {
@@ -25,11 +25,7 @@ const dadosAcordeao = [
 ];
 
 function App() {
-  return (
-    <div style={{ padding: "1rem" }}>
-      <Acordeao secoes={dadosAcordeao} />
-    </div>
-  );
+  return <Cabecalho />;
 }
 
 export default App;
