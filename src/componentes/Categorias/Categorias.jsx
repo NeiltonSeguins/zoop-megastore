@@ -11,7 +11,7 @@ const Categorias = () => {
       </h3>
       <div className="categoria">
         {categorias.map((categoria) => (
-          <Categoria {...categoria} />
+          <Categoria key={categoria.id} {...categoria} />
         ))}
       </div>
     </section>

@@ -12,7 +12,7 @@ const Produtos = () => {
           {produtos.map((produto) => {
             return (
               <>
-                <Produto {...produto} />
+                <Produto key={produto.id} {...produto} />
               </>
             );
           })}

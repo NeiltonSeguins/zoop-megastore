@@ -1,26 +1,21 @@
 import "./App.css";
-import Banner from "./componentes/Banner/Banner";
-import Cabecalho from "./componentes/Cabecalho/Cabecalho";
-import Categorias from "./componentes/Categorias/Categorias";
-import Produtos from "./componentes/Produtos/Produtos";
-import Inscricao from "./componentes/Inscricao/Inscricao";
-import Faq from "./componentes/Faq/Faq";
-import Rodape from "./componentes/Rodape/Rodape";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./paginas/Home";
+import Produto from "./paginas/Produto";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/produtos/:produto",
+    element: <Produto />,
+  },
+]);
 
 function App() {
-  return (
-    <>
-      <Cabecalho />
-      <main>
-        <Banner />
-        <Categorias />
-        <Produtos />
-        <Inscricao />
-        <Faq />
-      </main>
-      <Rodape />
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
