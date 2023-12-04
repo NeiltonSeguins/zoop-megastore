@@ -18,17 +18,17 @@ const Rodape = () => {
           <p>O jeito mais prático e rápido de realizar os seus desejos.</p>
         </div>
         <div className="rodape__col--2">
-          <h5>Institucional</h5>
+          <h3>Institucional</h3>
           <a href="#">Nossa história</a>
           <a href="#">Carreiras</a>
           <a href="#">Nossa loja</a>
         </div>
         <div className="rodape__col--3">
-          <h5>Central de atendimento</h5>
+          <h3>Central de atendimento</h3>
           <p>SAC 4003 4848</p>
         </div>
         <div className="rodape__col--4">
-          <h5>Redes sociais</h5>
+          <h3>Redes sociais</h3>
           <p>Acesse nossas rede:</p>
           <div className="rodape__icones">
             <a href="#" aria-label="Ícone da rede social Whatsapp">

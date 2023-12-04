@@ -10,11 +10,7 @@ const Produtos = () => {
         <h2 className="mais__procurados--titulo">Mais procurados da semana</h2>
         <div className="produtos__mais__procurados">
           {produtos.map((produto) => {
-            return (
-              <>
-                <Produto key={produto.id} {...produto} />
-              </>
-            );
+            return <Produto key={produto.id} {...produto} />;
           })}
         </div>
         <div className="link__ver__mais">

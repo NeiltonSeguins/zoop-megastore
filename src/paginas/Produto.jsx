@@ -10,6 +10,7 @@ import IconeFavoritar from "../componentes/Icones/IconeFavoritar";
 import IconeCompartilhar from "../componentes/Icones/IconeCompartilhar";
 import detalheProdutos from "../assets/detalhe-produtos.json";
 import { useParams } from "react-router-dom";
+import { formatadorMoeda } from "../utils/formatadorMoeda";
 
 const opcoes = [
   { value: "branco", label: "Branco" },
@@ -30,8 +31,6 @@ const Produto = () => {
   const [produtoAtual] = detalheProdutos.filter(
     (produto) => produto.id == params.produto
   );
-
-  console.log(produtoAtual);
 
   return (
     <>
@@ -63,7 +62,7 @@ const Produto = () => {
                 {produtoAtual.descricao}
               </p>
               <span className="pagina__produto--valor">
-                {produtoAtual.valor}
+                {formatadorMoeda(produtoAtual.valor)}
               </span>
               <div className="pagina__produto--opcoes">
                 {opcoes.map((opcao) => {

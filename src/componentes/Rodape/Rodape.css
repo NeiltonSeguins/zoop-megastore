@@ -41,9 +41,9 @@
   transition: all 0.1s ease;
 }
 
-.rodape__col--2 h5,
-.rodape__col--3 h5,
-.rodape__col--4 h5 {
+.rodape__col--2 h3,
+.rodape__col--3 h3,
+.rodape__col--4 h3 {
   font-size: 1.125rem;
   color: var(--verde-claro);
   font-style: normal;
