@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Cabecalho from "../componentes/Cabecalho/Cabecalho";
 import Rodape from "../componentes/Rodape/Rodape";
 import Select from "../componentes/Select/Select";
@@ -8,7 +8,7 @@ import IconeBotao from "../componentes/Icones/IconeBotao";
 import BotaoRadio from "../componentes/BotaoRadio/BotaoRadio";
 import IconeFavoritar from "../componentes/Icones/IconeFavoritar";
 import IconeCompartilhar from "../componentes/Icones/IconeCompartilhar";
-import produtos from "../assets/produtos.json";
+import detalheProdutos from "../assets/detalhe-produtos.json";
 import { useParams } from "react-router-dom";
 
 const opcoes = [
@@ -27,7 +27,7 @@ const selectOpcoes = [
 const Produto = () => {
   const params = useParams();
 
-  const [produtoAtual] = produtos.filter(
+  const [produtoAtual] = detalheProdutos.filter(
     (produto) => produto.id == params.produto
   );
 
