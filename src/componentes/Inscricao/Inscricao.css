@@ -30,6 +30,7 @@
 
 .inscricao__formulario {
   display: flex;
+  align-items: start;
   justify-content: center;
   gap: 0.5rem;
 }

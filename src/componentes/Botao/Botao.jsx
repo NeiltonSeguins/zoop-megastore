@@ -5,6 +5,7 @@ const Botao = ({
   icone,
   link,
   children,
+  tipo,
   handleClick,
 }) => {
   const classeBotao = `botao ${
@@ -18,7 +19,7 @@ const Botao = ({
       onClick={handleClick}
       href={link}
       className={classeBotao}
-      type="button"
+      type={tipo || "button"}
     >
       {icone && <span className="botao-icone">{icone}</span>}
       {children}

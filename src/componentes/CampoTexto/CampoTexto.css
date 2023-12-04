@@ -11,9 +11,21 @@
   font-size: 1.375rem;
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 8px;
 }
 
 .campo__texto:focus {
   outline: none;
   border: 2px solid var(--magenta-primario);
+}
+
+.campo__texto--label {
+  gap: 24px;
+}
+
+.mensagem-erro {
+  color: var(--magenta-primario);
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 0.5rem;
 }
